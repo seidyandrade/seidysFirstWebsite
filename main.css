@@ -1,7 +1,31 @@
-h2 {
-    color:aquamarine
+.navbar{
+    background-color: rgb(255, 191, 201);
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    text-align: center;
+}
+.navbar li {
+    list-style-type: none;
+    display:inline;
 }
 
-#mainPara{
-    
+.navbar a {
+    font-size: 48px;
+    padding: 14px 15px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.navbar a:hover{
+    background-color:white;
+    color:pink;
+}
+
+.welcome{
+    background-color:rgb(255, 231, 235);
+    color: white;
+    padding:100px 100px;
+    text-align: center;
 }
