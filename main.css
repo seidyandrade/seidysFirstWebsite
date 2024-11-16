@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(255, 191, 201);
+    background-color: rgb(196, 150, 0);
     position:fixed;
     top:0;
     left:0;
@@ -19,13 +19,38 @@
 }
 
 .navbar a:hover{
-    background-color:white;
-    color:pink;
+    background-color:rgb(255, 255, 255);
+    color:rgb(241, 198, 7);
+}
+body{
+    margin:0;
+    padding: 0;
 }
 
 .welcome{
-    background-color:rgb(255, 231, 235);
+    background-color:rgb(228, 185, 94);
     color: white;
-    padding:100px 100px;
+    padding:7% 5%;
     text-align: center;
+    display: box;
+    font-size:35px;
+    font-style:initial;
+}
+
+.contentA{
+    background-color: rgb(228, 185, 94);
+    display: flex;
+    text-align: center;
+}
+
+.contentA img{
+    width: 60%;
+    float: left;
+}
+
+.contentA p{
+    padding: right 20%;
+    font-size: 60px;
+    color: white;
+    font-style:italic;
 }
