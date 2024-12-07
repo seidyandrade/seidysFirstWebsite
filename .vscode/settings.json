@@ -1,0 +1,6 @@
+{
+    "githubIssues.userCompletions.enabled": true,
+    "githubIssues.issueCompletions.enabled": false,
+    "githubRepositories.autoFetch.enabled": true,
+    "search.useGlobalIgnoreFiles": true
+}
